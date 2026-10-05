@@ -1,0 +1,18 @@
+# Secrets and machine-specific Python environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Student uploads and the generated local search index
+uploads/*
+!uploads/.gitkeep
+data/*
+!data/.gitkeep
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
